@@ -1,6 +1,12 @@
+<div align="center">
+
 # Auto Work
 
-A script to send a ```!work``` message to a discord channel automatically.
+### A script to send a ```!work``` message to a discord channel automatically.
+
+<img width=500 height=auto src="work.PNG" alt="screenshot of work message">
+
+</div>
 
 ## Setup
 
