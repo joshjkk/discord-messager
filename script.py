@@ -4,7 +4,9 @@ import time
 
 ########## FILL THESE PARAMETERS IN ##########
 
-# Work channel
+# Channel link
+# LOOKS SOMETHING LIKE THIS:
+# https://discord.com/api/vNUMBER/SOME_NUMBERS/messages
 channel = r"LINK TO THE CHANNEL"
 
 # Message to send
