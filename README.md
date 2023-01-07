@@ -1,6 +1,8 @@
 # Discord Messager
 
-### A script to automatically send Discord Messages to a channel.
+### Automatically send Discord Messages.
+
+![GitHub file size in bytes](https://img.shields.io/github/size/joshjkk/discord-messager/script.py) ![GitHub](https://img.shields.io/github/license/joshjkk/discord-messager) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/joshjkk/discord-messager)
 
 It's always fun to mess with your friends or a server, and now you can do it automatically.
 
@@ -11,7 +13,7 @@ It's always fun to mess with your friends or a server, and now you can do it aut
 
 ## Usage
 
-*Discord does not allow [self-bots](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots-), by using this software, you are aware of possible account termination.*
+> *Discord does not allow [self-bots](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots-), by using this software, you are aware of possible account termination.*
 
 Firstly, you must fill out the parameters inside [script.py](./script.py) in order for it to work. Here are some resources to help you fill out the parameters:
 
