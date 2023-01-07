@@ -1,33 +1,27 @@
-<div align="center">
+# Discord Messager
 
-# Auto Work
+### A script to automatically send Discord Messages to a channel.
 
-### A script to send a ```!work``` message to a discord channel periodically.
+It's always fun to mess with your friends or a server, and now you can do it automatically.
 
-<img width=500 height=auto src="work.PNG" alt="screenshot of work message">
+## Prerequisites
 
-</div>
-
-## Setup
-
-1. Clone the repo with:
-
-``` bash
-git clone https://github.com/joshjkk/auto-work.git
-```
-
-2. Then fill out the values in [script.py](script.py) such as ```work_channel```, ```authorization``` and ```TIMEOUT``` according to channel ID, user token and bot command.
-
-[See this video on how the script works and how to fill in the values.](https://www.youtube.com/watch?v=DArlLAq56Mo)
+* Python - Download from the [official website](https://www.python.org/) or [via terminal](https://docs.python-guide.org/starting/install3/linux/).
+* Python requests - Usually comes bundled with the Python installation, but you may need to [install it manually](https://pypi.org/project/requests/).
 
 ## Usage
 
-In the command-line, run the script with:
+*Discord does not allow [self-bots](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots-), by using this software, you are aware of possible account termination.*
 
-``` bash
-python3 script.py
-```
+Firstly, you must fill out the parameters inside [script.py](./script.py) in order for it to work. Here are some resources to help you fill out the parameters:
 
-### Notice
+### Useful Resources
 
-**USE AT YOUR OWN RISK**, THIS SOFTWARE MAY GET YOUR ACCOUNT **SUSPENDED**, **DEACTIVATED** OR EVEN WORSE **BANNED**. I AM **NOT RESPONSIBLE** FOR ANYTHING THAT OCCURS DUE TO YOUR USE OF THIS SOFTWARE AND BY DOWNLOADING THIS SCRIPT **YOU AGREE THAT ANYTHING THAT HAPPENS DUE TO THE SCRIPT IS YOUR ACTIONS AND THUS YOU ARE TO BLAME.**
+* [How to Find Your Discord Token](https://www.youtube.com/watch?v=YEgFvgg7ZPI)
+* [How to Get Server ID, Channel ID, User ID in Discord](https://www.youtube.com/watch?v=NLWtSHWKbAI)
+
+After that, simply double click the Python file and it should start working. **Press <kbd>CTRL + C</kbd> or close the window at any time to stop the script.** 
+
+## License
+
+Discord Messager is licensed under the Apache License 2.0.
