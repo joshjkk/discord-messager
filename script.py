@@ -2,35 +2,41 @@ import requests
 import time
 
 
+########## FILL THESE PARAMETERS IN ##########
+
 # Work channel
-work_channel = r"CHANNEL LINK"
+channel = r"LINK TO THE CHANNEL"
 
 # Message to send
 payload = {
-    'content': "!work"
+    'content': "MESSAGE TO SEND"
 }
 
-# Authorizations
+# Authorization
 headers = {
     'authorization': "AUTHORIZATION KEY"
 }
 
-# Timeout length in seconds
-TIMEOUT = 30
+timeout = 30 # Timeout length in seconds
+
+########## FILL THESE PARAMETERS IN ##########
 
 
-def work() -> None:
+
+def send_message() -> None:
     # Send message
-    requests.post(url=work_channel, data=payload, headers=headers)
-
+    requests.post(url=channel, data=payload, headers=headers)
 
 
 def main() -> int:
+    print("Discord does not allow self-bots, by using this software, you are aware of possible account termination.")
+    print("See https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots- for support on self-bots.")
+
     try:
         while True:
-            work()
-            # Wait for timeout
-            time.sleep(TIMEOUT)
+            # Send message and wait [timeout] seconds
+            send_message()
+            time.sleep(timeout)
 
         return 0
 
