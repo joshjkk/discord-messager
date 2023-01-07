@@ -21,6 +21,7 @@ Firstly, you must fill out the parameters inside [script.py](./script.py) in ord
 
 * [How to Find Your Discord Token](https://www.youtube.com/watch?v=YEgFvgg7ZPI)
 * [How to Get Server ID, Channel ID, User ID in Discord](https://www.youtube.com/watch?v=NLWtSHWKbAI)
+* [Using Python Requests to Send Discord Messages](https://youtu.be/DArlLAq56Mo?t=56)
 
 After that, simply double click the Python file and it should start working. **Press <kbd>CTRL + C</kbd> or close the window at any time to stop the script.** 
 
